@@ -8,12 +8,12 @@ public class Person {
 	private Sex sex;
 
 	public Person(String name, LocalDate dateOfBirth, Sex sex) {
-		// this();
+		this();
 		this.name = name;
 		this.dateOfBirth = dateOfBirth;
 		this.sex = sex;
 	}
-
+	
 	public Person() {
 		super();
 	}
@@ -41,7 +41,5 @@ public class Person {
 	public void setSex(Sex sex) {
 		this.sex = sex;
 	}
-	
-	
 
 }
