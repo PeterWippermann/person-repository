@@ -8,10 +8,14 @@ public class Person {
 	private Sex sex;
 
 	public Person(String name, LocalDate dateOfBirth, Sex sex) {
-		super();
+		// this();
 		this.name = name;
 		this.dateOfBirth = dateOfBirth;
 		this.sex = sex;
+	}
+
+	public Person() {
+		super();
 	}
 
 	public String getName() {
@@ -25,5 +29,19 @@ public class Person {
 	public Sex getSex() {
 		return sex;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setDateOfBirth(LocalDate dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public void setSex(Sex sex) {
+		this.sex = sex;
+	}
+	
+	
 
 }
