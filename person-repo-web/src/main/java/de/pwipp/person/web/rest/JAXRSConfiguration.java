@@ -13,7 +13,6 @@ public class JAXRSConfiguration extends Application {
 	@Override
 	public Set<Class<?>> getClasses() {
 		HashSet<Class<?>> hashSet = new HashSet<>();
-		hashSet.add(RestService.class);
 		hashSet.add(PersonRestServiceImpl.class);
 		hashSet.add(JacksonJsonProvider.class);
 		hashSet.add(JacksonContextResolver.class);
